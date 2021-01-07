@@ -20,7 +20,6 @@ function useCount() {
 }
 
 function CountDisplay() {
-  // 🐨 get the count from useContext with the CountContext
   const [count] = useCount()
   return <div>{`The current count is ${count}`}</div>
 }
